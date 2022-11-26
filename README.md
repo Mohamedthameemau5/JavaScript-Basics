@@ -1,4 +1,6 @@
 # JavaScript-Basics
+
+
 Challenge 1
 Create an HTML file and set the title to 
 "JavaScript Basic Challenges: Challenge 1" 
