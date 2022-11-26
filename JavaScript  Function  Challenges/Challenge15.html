@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Function Challenges : Challenge 14</title>
+    <title>JavaScript Function Challenges : Challenge 15</title>
 </head>
 <body>
     <h1>JavaScript Function Challenges</h1>
-    <h1>Challenge 14</h1>
+    <h1>Challenge 15</h1>
 
 
     <script>
        var yourName = prompt('provide your name','');
- 
+       var food = ["Cheese","Butter","Milk","Beef","Ghee"]
 
         function hello(name){
 
@@ -32,11 +32,16 @@
             return greeting;
             
         }
+     
+        function hospitality(name, gift){
+            console.log( hello(name) );
+            for(var i=0; i<gift.length; i++){
+                console.log(`${name},would you like soem ${gift[i]}`)
+            }
 
-        console.log(hello(yourName));
+        }
 
-        
-
+        hospitality(yourName,food)
 
         
 
