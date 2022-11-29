@@ -45,3 +45,16 @@ body { padding: 100px; background: #717171; }
 }
 
 /************ Animation Styles ************/
+
+.fadeining{
+	animation: fadein 2s;
+}
+
+@keyframes fadein {
+	from{
+		opacity: 0;
+	}
+	to {
+	opacity: ;
+}
+}
